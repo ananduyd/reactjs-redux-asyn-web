@@ -1,0 +1,32 @@
+{
+  "name": "demo-one",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:dev": "react-scripts build && serve -s build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "flow-bin": "^0.63.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^5.2.2",
+    "redux-devtools-extension": "2.13.2"
+  }
+}

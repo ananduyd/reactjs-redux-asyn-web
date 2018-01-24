@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgba(34, 34, 34, 0.8);
+  }
+  
+  button {
+    border: 1px solid #222;
+    color: #222;
+    height: 2rem;
+    border-radius: 2px;
+    background: none;
+    font-size: 0.8rem;
+  }
+  button:focus {
+    outline: none;
+    border-width: 1px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  button:active {
+    box-shadow: 0 0 5px #CCC inset;
+    background-color: rgba(238, 238, 238, 0.5);
+    border-color: #000;
+    color: #000;
+  }
+  
